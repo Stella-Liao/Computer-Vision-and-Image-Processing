@@ -1,0 +1,22 @@
+# Usage
+
+## Validation
+
+To run the `FaceDetector.py` for the validation dataset, using following command
+
+```bash
+python3 FaceDetector.py <validation-folder>/images
+```
+
+Then the program will saved the result at `<validation-folder>/results.json`
+
+
+## Test
+
+To run the `FaceDetector.py` for the test dataset, using following command
+
+```bash
+python3 FaceDetector.py <test-folder>/images
+```
+
+Then the program will saved the result at `<test-folder>/results.json`
